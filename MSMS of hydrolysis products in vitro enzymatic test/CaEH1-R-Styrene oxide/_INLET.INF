@@ -1,0 +1,180 @@
+
+ACE Experimental Record
+
+
+Inlet Method File: c:\masslynx\quantify.pro\acqudb\j-ms-p
+
+---------------------   Run method parameters   ----------------
+
+-- PUMP --
+
+Waters ACQUITY QSM
+ Solvent A Name: Water + 0.01% Formic Acid + 0.05% Ammonia 
+ Solvent B Name: Acetonitrile 
+ Solvent C Name: Methanol 
+ Solvent D Name: Unknown 
+ Low Pressure Limit: 0 psi
+ High Pressure Limit: 15000 psi
+ Seal Wash Period: 5.00 min
+ [Gradient Table]
+  Time(min) Flow Rate(mL/min) %A %B %C %D Curve 
+ 1. Initial 0.500 90.0 10.0 0.0 0.0 Initial 
+ 2. 0.20 0.500 90.0 10.0 0.0 0.0 6 
+ 3. 4.50 0.500 5.0 95.0 0.0 0.0 6 
+ 4. 5.00 0.500 5.0 95.0 0.0 0.0 6 
+ 5. 7.00 0.500 90.0 10.0 0.0 0.0 1 
+ Comment:  
+ Flow Ramp Rate: 0.45 min
+ D Solvent Selection (if supported): No Change 
+ System Pressure Data Channel: No 
+ Flow Rate Data Channel: No 
+ %A Data Channel: No 
+ %B Data Channel: No 
+ %C Data Channel: No 
+ %D Data Channel: No 
+ Primary Data Channel: No 
+ Accumulator Data Channel: No 
+ Degasser Data Channel: No 
+ Gradient Start: At Injection 
+ Gradient Start Volume: 0 uL
+ Gradient Start Time: 0.00 min
+ Participate in pre-analysis: No 
+
+-- END PUMP --
+
+-- DETECTOR -- 
+
+Waters Acquity PDA
+
+ Run Time: 7.00 min
+ PDA Detector Type: UPLC LG 500 nm 
+ Lamp: On 
+ Sampling Rate: 20 points/sec
+ Filter Time Constant: 0.2000 sec
+ Exposure Time: Auto msec
+ Interpolate 2nd order filter Region: No 
+ Use UV Blocking Filter: No 
+3D Channel...
+ Range: 210  - 500  
+ Resolution: 1.2 nm
+Channel 1...
+ Data Mode: Absorbance at 254  
+ Resolution: 2.4 nm
+ Initial Switch 1: No Change 
+ Initial Switch 2: No Change 
+
+
+-- END DETECTOR -- 
+
+-- AUTOSAMPLER --
+
+Waters ACQUITY FTN AutoSampler 
+ Run Time: 0.50 min
+ Comment:  
+ Load Ahead: Disabled 
+ Loop Offline: Automatic min
+ Wash Solvent Name: Methanol 
+ Pre-Inject Wash Time: 0.0 sec
+ Post-Inject Wash Time: 6.0 sec
+ Purge Solvent Name: Methylene Chloride 
+ Dilution: Disabled 
+ Dilution Volume: 0 uL
+ Delay Time: 0 min
+ Dilution Needle Placement: Automatic mm
+ Target Column Temperature: 40.0 C
+ Column Temperature Alarm Band: Disabled 
+ Target Sample Temperature: 15.0 C
+ Sample Temperature Alarm Band: Disabled 
+ Syringe Draw Rate: Automatic 
+ Needle Placement: Automatic 
+ Pre-Aspirate Air Gap: Automatic 
+ Post-Aspirate Air Gap: Automatic 
+ Column Temperature Data Channel: No 
+ Room Temperature Data Channel: No 
+ Sample Temperature Data Channel: No 
+ Sample Organizer Temperature Data Channel: No 
+ Sample Pressure Data Channel: No 
+ Preheater Temperature Data Channel: No 
+ Seal Force Data Channel: No 
+ No Injection Mode Enabled: No 
+ Autoaddition Mix Stroke Cycles: Automatic 
+ Autoaddition Mix Stroke Volume: Automatic uL
+ Active Preheater: Use Console Configuration 
+ Run Events: No 
+
+
+Sample Run Injection Parameter
+
+Injection Volume (ul)   -   1.00
+-- END AUTOSAMPLER --
+
+----------------------------  oOo  -----------------------------
+
+
+End of experimental record.
+
+------------------- Waters ACQUITY FTN Postrun Report  ---------------
+
+
+
+ Software Version: 1.65.1929 
+ Firmware Version: 1.65.375 (Mar 26 2015) 
+ Checksum: 0x34728d7d 
+ Serial Number: L15SDI595G 
+ Sample Syringe Size: 100.0 
+ Extension Loop Size: 0.0 
+ Needle Size: 15.0 
+ Column Type: ACQUITY UPLC® BEH C18 1.7µm 
+ Column Serial Number: 02873627855130 
+ Total Injections on Column: 3945 
+ Minimum Sample Temperature: 15.1 
+ Maximum Sample Temperature: 15.2 
+ Average Sample Temperature: 15.2 
+ Minimum Column Temperature: 40.0 
+ Maximum Column Temperature: 40.0 
+ Average Column Temperature: 40.0 
+
+----------------------------  oOo  -----------------------------
+
+
+
+
+
+------------------- Waters ACQUITY QSM Postrun Report  ---------------
+
+
+
+ Firmware Version: 1.65.287 (Apr 17 2015) 
+ Software Version: 1.65.2022 
+ Checksum: 0xaf834c27 
+ Serial Number: M15QSM151A 
+ Minimum System Pressure: 3709.0 psi
+ Maximum System Pressure: 7733.0 psi
+ Average System Pressure: 6573.0 psi
+
+----------------------------  oOo  -----------------------------
+
+
+
+------------------- Generic Instrument Postrun Report  ---------------
+
+
+ Software Version: 1.65.1503 
+ Firmware Version: 1.65.6229 (May 07 2015) 
+ Checksum: 0xdc2f6074 
+ Serial Number: M15UPL942A 
+ Lamp On/Off Event: No 
+ Lamp Life: 7297.00 hours
+ Lamp Serial Number: 12C5BC0D 
+ Exposure Time: 4.167 msec
+ Lambda1: 186.474 
+ Lambda512: 804.453 
+ Flow Cell Type: Analytical LG 
+ Flow Cell Path Length: 0.000 mm
+ Flow Cell Volume: 0.000 microliters
+ Flow Cell Serial Number:  
+ Flow Cell Part Number:  
+ Optics Temperature Stabilzation Setting: Normal Temperature 
+
+----------------------------  oOo  -----------------------------
+
