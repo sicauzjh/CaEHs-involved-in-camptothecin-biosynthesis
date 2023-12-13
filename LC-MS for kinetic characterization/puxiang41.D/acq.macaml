@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACAML xmlns="urn:schemas-agilent-com:acaml15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Checksum Algorithm="MD5">
+		<Value>RENtLMvQHFVPpzyPztZX/g==</Value>
+	</Checksum>
+	<Doc ContentVersioned="false">
+		<DocID>b4f0d3ce-ef3d-4963-831b-64f913249092</DocID>
+		<DocInfo>
+			<Description>Method ACAML</Description>
+			<CreatedByUser>LCMS\admin</CreatedByUser>
+			<CreatedByApplication>
+				<AgilentApp>
+					<Name>ChemStation</Name>
+					<Version>2.197.0.0</Version>
+				</AgilentApp>
+			</CreatedByApplication>
+			<CreationDate>2022-05-12T08:15:20.004+08:00</CreationDate>
+			<ClientName>LCMS</ClientName>
+		</DocInfo>
+		<Content>
+			<MethodConfiguration xsi:type="MethodConfigurationType" id="cfb039dd-c285-475d-af81-631abb9b8b41" ver="0">
+				<MethodDescription>
+					<Name>Method Configuration</Name>
+					<ID>Method_Configuration</ID>
+					<Section>
+						<Name>采集方法</Name>
+						<ID>Acquisition_Method</ID>
+						<Section>
+							<Name>二元泵 (G7112B)</Name>
+							<ID>G7112B</ID>
+							<Section>
+								<Name>冲程 A</Name>
+								<ID>StrokeA</ID>
+								<Parameter>
+									<Name>自动冲程计算 A</Name>
+									<ID>StrokeA_AutomaticStrokeCalculation</ID>
+									<Unit />
+									<Value>是</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>冲程 B</Name>
+								<ID>StrokeB</ID>
+								<Parameter>
+									<Name>自动冲程计算 B</Name>
+									<ID>StrokeB_AutomaticStrokeCalculation</ID>
+									<Unit />
+									<Value>是</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>停止时间</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>停止时间模式</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>时间设置</Value>
+								</Parameter>
+								<Parameter>
+									<Name>停止时间</Name>
+									<ID>StopTime_StopTimeValue</ID>
+									<Unit>min</Unit>
+									<Value>14.00</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>后运行时间</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>后运行时间模式</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>关闭</Value>
+								</Parameter>
+							</Section>
+							<Parameter>
+								<Name>流量</Name>
+								<ID>Flow</ID>
+								<Unit>mL/min</Unit>
+								<Value>0.200</Value>
+							</Parameter>
+							<Parameter>
+								<Name>使用溶剂类型</Name>
+								<ID>UseSolventTypes</ID>
+								<Unit />
+								<Value>是</Value>
+							</Parameter>
+							<Parameter>
+								<Name>低压限值</Name>
+								<ID>LowPressureLimit</ID>
+								<Unit>bar</Unit>
+								<Value>0.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>高压限值</Name>
+								<ID>HighPressureLimit</ID>
+								<Unit>bar</Unit>
+								<Value>400.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>最大流量梯度</Name>
+								<ID>MaximumFlowRamp</ID>
+								<Unit>mL/min²</Unit>
+								<Value>100.000</Value>
+							</Parameter>
+							<Table>
+								<Name>溶剂组成</Name>
+								<ID>SolventComposition</ID>
+								<Row>
+									<Parameter>
+										<Name>通道</Name>
+										<ID>SolventComposition_Channel</ID>
+										<Unit />
+										<Value>A</Value>
+									</Parameter>
+									<Parameter>
+										<Name>溶剂 1</Name>
+										<ID>SolventComposition_Channel1SolventType_SolventName</ID>
+										<Unit />
+										<Value>H20</Value>
+									</Parameter>
+									<Parameter>
+										<Name>名称 1</Name>
+										<ID>SolventComposition_Channel1UserName</ID>
+										<Unit />
+										<Value />
+									</Parameter>
+									<Parameter>
+										<Name>已使用</Name>
+										<ID>SolventComposition_Used</ID>
+										<Unit />
+										<Value>是</Value>
+									</Parameter>
+									<Parameter>
+										<Name>百分比</Name>
+										<ID>SolventComposition_Percentage</ID>
+										<Unit>%</Unit>
+										<Value>95.0</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>通道</Name>
+										<ID>SolventComposition_Channel</ID>
+										<Unit />
+										<Value>B</Value>
+									</Parameter>
+									<Parameter>
+										<Name>溶剂 1</Name>
+										<ID>SolventComposition_Channel1SolventType_SolventName</ID>
+										<Unit />
+										<Value>MeOH</Value>
+									</Parameter>
+									<Parameter>
+										<Name>名称 1</Name>
+										<ID>SolventComposition_Channel1UserName</ID>
+										<Unit />
+										<Value />
+									</Parameter>
+									<Parameter>
+										<Name>已使用</Name>
+										<ID>SolventComposition_Used</ID>
+										<Unit />
+										<Value>是</Value>
+									</Parameter>
+									<Parameter>
+										<Name>百分比</Name>
+										<ID>SolventComposition_Percentage</ID>
+										<Unit>%</Unit>
+										<Value>5.0</Value>
+									</Parameter>
+								</Row>
+							</Table>
+							<Table>
+								<Name>时间表</Name>
+								<ID>Timetable</ID>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>4.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>90.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>10.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>6.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>80.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>20.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>9.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>50.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>50.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>12.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>20.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>80.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>13.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>2.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>98.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>13.50</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>95.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>5.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>时间</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>14.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>95.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>5.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>流量</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>压力</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>---</Value>
+									</Parameter>
+								</Row>
+							</Table>
+						</Section>
+						<Section>
+							<Name>进样器 (G7129A)</Name>
+							<ID>G7129A</ID>
+							<Section>
+								<Name>停止时间</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>停止时间模式</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>与泵一致/无限制</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>后运行时间</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>后运行时间模式</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>关闭</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>辅助功能</Name>
+								<ID>Auxiliary</ID>
+								<Parameter>
+									<Name>抽取速度</Name>
+									<ID>Auxiliary_DrawSpeed</ID>
+									<Unit>µL/min</Unit>
+									<Value>200</Value>
+								</Parameter>
+								<Parameter>
+									<Name>排出速度</Name>
+									<ID>Auxiliary_EjectSpeed</ID>
+									<Unit>µL/min</Unit>
+									<Value>400</Value>
+								</Parameter>
+								<Parameter>
+									<Name>针高度补偿</Name>
+									<ID>Auxiliary_DrawPositionOffset</ID>
+									<Unit>mm</Unit>
+									<Value>0.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>抽取后的等待时间</Name>
+									<ID>Auxiliary_WaitTimeAfterDraw</ID>
+									<Unit>s</Unit>
+									<Value>1.2</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>高通量</Name>
+								<ID>HighThroughput</ID>
+								<Section>
+									<Name>重叠进样</Name>
+									<ID>HighThroughput_OverlappedInjection</ID>
+									<Parameter>
+										<Name>重叠进样模式</Name>
+										<ID>HighThroughput_OverlappedInjection_OverlapMode</ID>
+										<Unit />
+										<Value>关闭</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>样品冲洗因子</Name>
+									<ID>HighThroughput_SampleFlushOutFactor</ID>
+									<Unit />
+									<Value>5.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>进样阀切换到旁路以减小延迟体积</Name>
+									<ID>HighThroughput_ValveToBypassAfterInjection</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>进样</Name>
+								<ID>Injection</ID>
+								<Section>
+									<Name>针清洗</Name>
+									<ID>Injection_NeedleWash</ID>
+									<Parameter>
+										<Name>针清洗位置</Name>
+										<ID>Injection_NeedleWash_NeedleWashLocation</ID>
+										<Unit />
+										<Value>冲洗端口</Value>
+									</Parameter>
+									<Parameter>
+										<Name>清洗时间</Name>
+										<ID>Injection_NeedleWash_WashTime</ID>
+										<Unit>s</Unit>
+										<Value>3</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>进样模式</Name>
+									<ID>Injection_InjectionMode</ID>
+									<Unit />
+									<Value>针清洗后进样</Value>
+								</Parameter>
+								<Parameter>
+									<Name>进样量</Name>
+									<ID>Injection_InjectionVolume</ID>
+									<Unit>µL</Unit>
+									<Value>5.00</Value>
+								</Parameter>
+							</Section>
+						</Section>
+						<Section>
+							<Name>柱温箱 (G7130A)</Name>
+							<ID>G7130A</ID>
+							<Section>
+								<Name>温度控制</Name>
+								<ID>LeftTemperatureControl</ID>
+								<Section>
+									<Name>温度未准备好限值</Name>
+									<ID>LeftTemperatureControl_NotReadyLimit</ID>
+									<Parameter>
+										<Name>温度未准备好限值启用</Name>
+										<ID>LeftTemperatureControl_NotReadyLimit_NotReadyLimitOn</ID>
+										<Unit />
+										<Value>是</Value>
+									</Parameter>
+									<Parameter>
+										<Name>温度未准备好限值值</Name>
+										<ID>LeftTemperatureControl_NotReadyLimit_NotReadyLimitValue</ID>
+										<Unit>°C</Unit>
+										<Value>0.8</Value>
+									</Parameter>
+									<Parameter>
+										<Name>温度平衡时间</Name>
+										<ID>LeftTemperatureControl_NotReadyLimit_EquilibrationTime</ID>
+										<Unit>min</Unit>
+										<Value>0.0</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>温度控制模式</Name>
+									<ID>LeftTemperatureControl_TemperatureControlMode</ID>
+									<Unit />
+									<Value>温度设置</Value>
+								</Parameter>
+								<Parameter>
+									<Name>温度</Name>
+									<ID>LeftTemperatureControl_Temperature</ID>
+									<Unit>°C</Unit>
+									<Value>35.0</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>运行时强制使用色谱柱</Name>
+								<ID>EnforceColumnType</ID>
+								<Parameter>
+									<Name>已启用运行时强制使用色谱柱</Name>
+									<ID>EnforceColumnType_EnforceColumnTypeOnInstrument</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>停止时间</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>停止时间模式</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>与泵/进样器一致</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>后运行时间</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>后运行时间模式</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>关闭</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>时间表</Name>
+								<ID>Timetable</ID>
+								<Table>
+									<Name>时间表</Name>
+									<ID>Timetable_TimetableEntry</ID>
+								</Table>
+							</Section>
+						</Section>
+						<Section>
+							<Name>质谱仪检测器 (G6125B)</Name>
+							<ID>质谱仪检测器(G6125B)</ID>
+							<Section>
+								<Name>基本信息</Name>
+								<ID>基本信息</ID>
+								<Parameter>
+									<Name>使用 MSD</Name>
+									<ID>使用MSD</ID>
+									<Unit />
+									<Value>已启用</Value>
+								</Parameter>
+								<Parameter>
+									<Name>调谐文件</Name>
+									<ID>调谐文件</ID>
+									<Unit />
+									<Value>atunes.tun</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Tune File Modified</Name>
+									<ID>TuneFileModified</ID>
+									<Unit>19:19:05 2022</Unit>
+									<Value>周三 4月 27</Value>
+								</Parameter>
+								<Parameter>
+									<Name>停止时间</Name>
+									<ID>停止时间</ID>
+									<Unit />
+									<Value>无限制</Value>
+								</Parameter>
+								<Parameter>
+									<Name>时间滤光片</Name>
+									<ID>时间滤光片</ID>
+									<Unit />
+									<Value>已启用</Value>
+								</Parameter>
+								<Parameter>
+									<Name>数据存储</Name>
+									<ID>数据存储</ID>
+									<Unit />
+									<Value>压缩</Value>
+								</Parameter>
+								<Parameter>
+									<Name>峰宽</Name>
+									<ID>峰宽</ID>
+									<Unit>min</Unit>
+									<Value>0.10</Value>
+								</Parameter>
+								<Parameter>
+									<Name>快速扫描</Name>
+									<ID>快速扫描</ID>
+									<Unit />
+									<Value>已禁用</Value>
+								</Parameter>
+								<Parameter>
+									<Name>快速扫描数据重构</Name>
+									<ID>快速扫描数据重构</ID>
+									<Unit />
+									<Value>已禁用</Value>
+								</Parameter>
+								<Parameter>
+									<Name>极性切换延迟</Name>
+									<ID>极性切换延迟</ID>
+									<Unit>ms</Unit>
+									<Value>300</Value>
+								</Parameter>
+								<Parameter>
+									<Name>电离切换延迟</Name>
+									<ID>电离切换延迟</ID>
+									<Unit>ms</Unit>
+									<Value>50</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>信号</Name>
+								<ID>信号</ID>
+								<Section>
+									<Name>[信号 1]</Name>
+									<ID>[信号1]</ID>
+									<Section>
+										<Name>扫描参数</Name>
+										<ID>扫描参数</ID>
+									</Section>
+									<Parameter>
+										<Name>电离模式</Name>
+										<ID>电离模式</ID>
+										<Unit />
+										<Value>API-ES</Value>
+									</Parameter>
+									<Parameter>
+										<Name>极性</Name>
+										<ID>极性</ID>
+										<Unit />
+										<Value>正</Value>
+									</Parameter>
+									<Parameter>
+										<Name>碰撞诱导解离阶升</Name>
+										<ID>碰撞诱导解离阶升</ID>
+										<Unit />
+										<Value>已禁用</Value>
+									</Parameter>
+									<Parameter>
+										<Name>循环时间百分比</Name>
+										<ID>循环时间百分比</ID>
+										<Unit>%</Unit>
+										<Value>100.00</Value>
+									</Parameter>
+									<Table>
+										<Name>扫描参数</Name>
+										<ID>扫描参数</ID>
+										<Row>
+											<Parameter>
+												<Name>时间 (min)</Name>
+												<ID>时间(min)</ID>
+												<Unit />
+												<Value>0.00</Value>
+											</Parameter>
+											<Parameter>
+												<Name>质量范围 低</Name>
+												<ID>质量范围低</ID>
+												<Unit />
+												<Value>50.00</Value>
+											</Parameter>
+											<Parameter>
+												<Name>质量范围 高</Name>
+												<ID>质量范围高</ID>
+												<Unit />
+												<Value>1000.00</Value>
+											</Parameter>
+											<Parameter>
+												<Name>碰撞 诱导解离</Name>
+												<ID>碰撞诱导解离</ID>
+												<Unit />
+												<Value>10</Value>
+											</Parameter>
+											<Parameter>
+												<Name>增益 EMV</Name>
+												<ID>增益EMV</ID>
+												<Unit />
+												<Value>1.0</Value>
+											</Parameter>
+											<Parameter>
+												<Name>阀 值</Name>
+												<ID>阀值</ID>
+												<Unit />
+												<Value>150</Value>
+											</Parameter>
+											<Parameter>
+												<Name>步 径</Name>
+												<ID>步径</ID>
+												<Unit />
+												<Value>0.10</Value>
+											</Parameter>
+										</Row>
+									</Table>
+								</Section>
+								<Section>
+									<Name>[信号 2]</Name>
+									<ID>[信号2]</ID>
+									<Parameter>
+										<Name />
+										<ID>未激活</ID>
+										<Unit />
+										<Value>未激活</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>[信号 3]</Name>
+									<ID>[信号3]</ID>
+									<Parameter>
+										<Name />
+										<ID>未激活</ID>
+										<Unit />
+										<Value>未激活</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>[信号 4]</Name>
+									<ID>[信号4]</ID>
+									<Parameter>
+										<Name />
+										<ID>未激活</ID>
+										<Unit />
+										<Value>未激活</Value>
+									</Parameter>
+								</Section>
+							</Section>
+							<Section>
+								<Name>雾化室</Name>
+								<ID>雾化室</ID>
+								<Section>
+									<Name>[MSZones]</Name>
+									<ID>[MSZones]</ID>
+									<Parameter>
+										<Name>气体温度</Name>
+										<ID>气体温度</ID>
+										<Unit>C                  最大值350 C</Unit>
+										<Value>350</Value>
+									</Parameter>
+									<Parameter>
+										<Name>干燥气</Name>
+										<ID>干燥气</ID>
+										<Unit>l/min             最大值13.0 l/min</Unit>
+										<Value>12.0</Value>
+									</Parameter>
+									<Parameter>
+										<Name>雾化气压力</Name>
+										<ID>雾化气压力</ID>
+										<Unit>psig                最大值60 psig</Unit>
+										<Value>35</Value>
+									</Parameter>
+									<Parameter>
+										<Name>四极杆温度</Name>
+										<ID>四极杆温度</ID>
+										<Unit>C                  最大值150 C</Unit>
+										<Value>100</Value>
+									</Parameter>
+									<Parameter>
+										<Name>四极杆温度</Name>
+										<ID>四极杆温度</ID>
+										<Unit>C                  最大值150 C</Unit>
+										<Value>100</Value>
+									</Parameter>
+									<Parameter>
+										<Name>VCap (Positive)</Name>
+										<ID>VCap(Positive)</ID>
+										<Unit>V</Unit>
+										<Value>3000</Value>
+									</Parameter>
+									<Parameter>
+										<Name>VCap (Negative)</Name>
+										<ID>VCap(Negative)</ID>
+										<Unit>V</Unit>
+										<Value>3000</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>[时间表]</Name>
+									<ID>[时间表]</ID>
+									<Parameter>
+										<Name />
+										<ID>时间表为空。</ID>
+										<Unit />
+										<Value>时间表为空。</Value>
+									</Parameter>
+								</Section>
+							</Section>
+						</Section>
+						<Section>
+							<Name>FIA 系列</Name>
+							<ID>FIA系列</ID>
+							<Section>
+								<Name>时间设置</Name>
+								<ID>时间设置</ID>
+								<Parameter>
+									<Name>进样时间间隔</Name>
+									<ID>进样时间间隔</ID>
+									<Unit>min</Unit>
+									<Value>0.15</Value>
+								</Parameter>
+								<Parameter>
+									<Name>进样定量管冲洗时间</Name>
+									<ID>进样定量管冲洗时间</ID>
+									<Unit>min</Unit>
+									<Value>0.17</Value>
+								</Parameter>
+							</Section>
+							<Parameter>
+								<Name>此方法中的 FIA 系列</Name>
+								<ID>此方法中的FIA系列</ID>
+								<Unit />
+								<Value>禁用</Value>
+							</Parameter>
+						</Section>
+					</Section>
+				</MethodDescription>
+			</MethodConfiguration>
+		</Content>
+	</Doc>
+</ACAML>

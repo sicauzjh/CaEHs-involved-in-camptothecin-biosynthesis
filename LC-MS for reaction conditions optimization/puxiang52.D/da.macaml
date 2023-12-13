@@ -1,0 +1,1253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACAML xmlns="urn:schemas-agilent-com:acaml15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Checksum Algorithm="MD5">
+		<Value>ogetDZ0jcGNnSSI10i6OtA==</Value>
+	</Checksum>
+	<Doc ContentVersioned="false">
+		<DocID>76775f6e-ead5-4cbe-afb0-05f52e09b755</DocID>
+		<DocInfo>
+			<Description>Method ACAML</Description>
+			<CreatedByUser>LCMS\admin</CreatedByUser>
+			<CreatedByApplication>
+				<AgilentApp>
+					<Name>ChemStation</Name>
+					<Version>2.197.0.0</Version>
+				</AgilentApp>
+			</CreatedByApplication>
+			<CreationDate>2022-04-28T09:52:32.175+08:00</CreationDate>
+			<ClientName>LCMS</ClientName>
+		</DocInfo>
+		<Content>
+			<MethodConfiguration xsi:type="MethodConfigurationType" id="ff294cc0-9081-4dbf-869a-f9cf936d2461" ver="0">
+				<MethodDescription>
+					<Name>Method Configuration</Name>
+					<ID>Method_Configuration</ID>
+					<Section>
+						<Name>方法信息</Name>
+						<ID>Method_Information</ID>
+						<Parameter>
+							<Name>方法</Name>
+							<ID>ID_Method_Original</ID>
+							<Unit />
+							<Value>D:\LCMS\1\Data\蒲祥\蒲祥 2022-04-27 20-41-43\puxiang.M</Value>
+						</Parameter>
+						<Parameter>
+							<Name>已修改</Name>
+							<ID>ID_Method_Modified</ID>
+							<Unit />
+							<Value>2022/4/27 at 20:41:39</Value>
+						</Parameter>
+						<Parameter>
+							<Name>说明</Name>
+							<ID>ID_Method_Description</ID>
+							<Unit />
+							<Value />
+						</Parameter>
+					</Section>
+					<Section>
+						<Name>运行时选项表</Name>
+						<ID>Run_Time_Section</ID>
+						<Parameter>
+							<Name>预运行命令/宏</Name>
+							<ID>ID_Pre_Run_Cmd_Macro</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+						<Parameter>
+							<Name>数据采集</Name>
+							<ID>ID_Data_Acquisition</ID>
+							<Unit />
+							<Value>打开</Value>
+						</Parameter>
+						<Parameter>
+							<Name>标准数据分析</Name>
+							<ID>ID_Standard_Data_Analysis</ID>
+							<Unit />
+							<Value>打开</Value>
+						</Parameter>
+						<Parameter>
+							<Name>修改自定义参数</Name>
+							<ID>ID_Modify_Custom_Fields</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+						<Parameter>
+							<Name>自定义数据分析</Name>
+							<ID>ID_Customized_Data_Analysis</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+						<Parameter>
+							<Name>保存 GLP 数据</Name>
+							<ID>ID_Save_GLP_Data</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+						<Parameter>
+							<Name>后运行命令/宏</Name>
+							<ID>ID_Post_Run_Cmd_Macro</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+						<Parameter>
+							<Name>将方法和数据保存在一起</Name>
+							<ID>ID_Save_Method_with_Data</ID>
+							<Unit />
+							<Value>关闭</Value>
+						</Parameter>
+					</Section>
+					<Section>
+						<Name>分析方法</Name>
+						<ID>Data_Analysis_Method</ID>
+						<Section>
+							<Name>积分事件</Name>
+							<ID>ID_INTEGRATION_SECTION</ID>
+							<Section>
+								<Name>初始事件</Name>
+								<ID>ID_Initial_Event</ID>
+								<Table>
+									<Name>事件</Name>
+									<ID>ID_Initial_Event</ID>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Thresh_Event_0</ID>
+											<Unit />
+											<Value>初始斜率灵敏度</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Thresh_Value_0</ID>
+											<Unit />
+											<Value>1.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Thresh_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Width_Event_0</ID>
+											<Unit />
+											<Value>初始峰宽</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Width_Value_0</ID>
+											<Unit />
+											<Value>0.020</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Width_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Reject_Event_0</ID>
+											<Unit />
+											<Value>初始最小峰面积</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Reject_Value_0</ID>
+											<Unit />
+											<Value>1.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Reject_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Height_Event_0</ID>
+											<Unit />
+											<Value>初始最小峰高</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Height_Value_0</ID>
+											<Unit />
+											<Value>1.700</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Height_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Shoulders_On_Event_0</ID>
+											<Unit />
+											<Value>初始肩峰</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Shoulders_On_Value_0</ID>
+											<Unit />
+											<Value>关闭</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Shoulders_On_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Area_Percent_Reject_Event_0</ID>
+											<Unit />
+											<Value>初始最小峰面积百分比</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Area_Percent_Reject_Value_0</ID>
+											<Unit />
+											<Value>0.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Area_Percent_Reject_Time_0</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+								</Table>
+								<Table>
+									<Name>MSD 事件</Name>
+									<ID>ID_Initial_Event_MSD</ID>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Thresh_Event_1</ID>
+											<Unit />
+											<Value>初始斜率灵敏度</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Thresh_Value_1</ID>
+											<Unit />
+											<Value>10000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Thresh_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Width_Event_1</ID>
+											<Unit />
+											<Value>初始峰宽</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Width_Value_1</ID>
+											<Unit />
+											<Value>0.020</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Width_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Reject_Value_1</ID>
+											<Unit />
+											<Value>1000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Height_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰高</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Height_Value_1</ID>
+											<Unit />
+											<Value>100.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Height_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Shoulders_On_Event_1</ID>
+											<Unit />
+											<Value>初始肩峰</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Shoulders_On_Value_1</ID>
+											<Unit />
+											<Value>关闭</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Shoulders_On_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Area_Percent_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积百分比</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Area_Percent_Reject_Value_1</ID>
+											<Unit />
+											<Value>0.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Area_Percent_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+								</Table>
+								<Table>
+									<Name>Event_MSD1TIC</Name>
+									<ID>ID_Initial_Event_MSD1TIC</ID>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Thresh_Event_1</ID>
+											<Unit />
+											<Value>初始斜率灵敏度</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Thresh_Value_1</ID>
+											<Unit />
+											<Value>100000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Thresh_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Width_Event_1</ID>
+											<Unit />
+											<Value>初始峰宽</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Width_Value_1</ID>
+											<Unit />
+											<Value>0.020</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Width_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Reject_Value_1</ID>
+											<Unit />
+											<Value>10000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Height_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰高</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Height_Value_1</ID>
+											<Unit />
+											<Value>1000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Height_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Shoulders_On_Event_1</ID>
+											<Unit />
+											<Value>初始肩峰</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Shoulders_On_Value_1</ID>
+											<Unit />
+											<Value>关闭</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Shoulders_On_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Area_Percent_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积百分比</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Area_Percent_Reject_Value_1</ID>
+											<Unit />
+											<Value>0.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Area_Percent_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+								</Table>
+								<Table>
+									<Name>Event_MSD1SPC</Name>
+									<ID>ID_Initial_Event_MSD1SPC</ID>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Thresh_Event_1</ID>
+											<Unit />
+											<Value>初始斜率灵敏度</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Thresh_Value_1</ID>
+											<Unit />
+											<Value>1.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Thresh_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Width_Event_1</ID>
+											<Unit />
+											<Value>初始峰宽</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Width_Value_1</ID>
+											<Unit />
+											<Value>0.020</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Width_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Reject_Value_1</ID>
+											<Unit />
+											<Value>0.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Height_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰高</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Height_Value_1</ID>
+											<Unit />
+											<Value>5.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Height_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Shoulders_On_Event_1</ID>
+											<Unit />
+											<Value>初始肩峰</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Shoulders_On_Value_1</ID>
+											<Unit />
+											<Value>关闭</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Shoulders_On_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+									<Row>
+										<Parameter>
+											<Name>事件</Name>
+											<ID>ID_Init_Area_Percent_Reject_Event_1</ID>
+											<Unit />
+											<Value>初始最小峰面积百分比</Value>
+										</Parameter>
+										<Parameter>
+											<Name>值</Name>
+											<ID>ID_Init_Area_Percent_Reject_Value_1</ID>
+											<Unit />
+											<Value>0.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>时间</Name>
+											<ID>ID_Init_Area_Percent_Reject_Time_1</ID>
+											<Unit />
+											<Value>初始</Value>
+										</Parameter>
+									</Row>
+								</Table>
+							</Section>
+							<Section>
+								<Name>定时事件</Name>
+								<ID>ID_Timed_Event</ID>
+							</Section>
+							<Table>
+								<Name>指定的积分时间没有信号</Name>
+								<ID>Integration Events</ID>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>切线撇去模式</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>标准</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>基线校正</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>高级</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>前伸峰撇去高度比</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>0.000</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>拖尾峰撇去高度比</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>0.000</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>峰谷比</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>0.000</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>事件</Name>
+										<ID />
+										<Unit />
+										<Value>撇去峰/谷比</Value>
+									</Parameter>
+									<Parameter>
+										<Name>值</Name>
+										<ID />
+										<Unit />
+										<Value>0.000</Value>
+									</Parameter>
+								</Row>
+							</Table>
+						</Section>
+						<Section>
+							<Name>报告选项</Name>
+							<ID>Report_Option</ID>
+							<Section>
+								<Name>定量设置</Name>
+								<ID>Quantitation_Settings</ID>
+								<Parameter>
+									<Name>计算</Name>
+									<ID>Rpt_Calculation_Type</ID>
+									<Unit />
+									<Value>面积百分比</Value>
+								</Parameter>
+								<Parameter>
+									<Name>在ISTD中使用乘积因子和稀释因子</Name>
+									<ID>Rpt_Do_Mult</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+								<Parameter>
+									<Name>使用样品数据</Name>
+									<ID>Rpt_Use_Sample_Data</ID>
+									<Unit />
+									<Value>从数据文件</Value>
+								</Parameter>
+								<Table>
+									<Name>计算因子</Name>
+									<ID>ID_Calculation_Factors</ID>
+								</Table>
+							</Section>
+							<Parameter>
+								<Name>报告模式</Name>
+								<ID>ID_Report_Mode</ID>
+								<Unit />
+								<Value>经典报告</Value>
+							</Parameter>
+							<Parameter>
+								<Name>目标            :</Name>
+								<ID>Rpt_Destination</ID>
+								<Unit />
+								<Value>文件 (前缀:Report</Value>
+							</Parameter>
+							<Parameter>
+								<Name>目标文件类型    :</Name>
+								<ID>Rpt_File_Value</ID>
+								<Unit />
+								<Value>.TXT, .PDF, 专有 PDF 名称</Value>
+							</Parameter>
+							<Parameter>
+								<Name>定量结果排列方式</Name>
+								<ID>Rpt_Sorted_By</ID>
+								<Unit />
+								<Value>信号</Value>
+							</Parameter>
+							<Parameter>
+								<Name>报告格式</Name>
+								<ID>Rpt_Report_Style</ID>
+								<Unit />
+								<Value>简短报告</Value>
+							</Parameter>
+							<Parameter>
+								<Name>每页上的样品信息</Name>
+								<ID>Rpt_Rpt_Sample_Info</ID>
+								<Unit />
+								<Value>否</Value>
+							</Parameter>
+							<Parameter>
+								<Name>添加色谱图输出</Name>
+								<ID>Rpt_Draw_Signal</ID>
+								<Unit />
+								<Value>是</Value>
+							</Parameter>
+							<Parameter>
+								<Name>色谱图输出      :</Name>
+								<ID>Rpt_Sig_Out_Single</ID>
+								<Unit />
+								<Value>竖向</Value>
+							</Parameter>
+							<Parameter>
+								<Name>时间方向的尺寸</Name>
+								<ID>Rpt_Size_Time</ID>
+								<Unit>% 页</Unit>
+								<Value>100</Value>
+							</Parameter>
+							<Parameter>
+								<Name>响应方向的尺寸:</Name>
+								<ID>Rpt_Size_Response</ID>
+								<Unit>% 页</Unit>
+								<Value>40</Value>
+							</Parameter>
+							<Parameter>
+								<Name>未校正峰:</Name>
+								<ID>Rpt_UnCalib_Peaks_Rpt</ID>
+								<Unit />
+								<Value>带有已校正峰的报告</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>信号选项</Name>
+							<ID>Signal_Option</ID>
+							<Parameter>
+								<Name>包含            :</Name>
+								<ID>SigOpt_Incl_Hdr</ID>
+								<Unit />
+								<Value>坐标轴, 保留时间, 基线, 峰起止符</Value>
+							</Parameter>
+							<Parameter>
+								<Name>字体</Name>
+								<ID>SigOpt_Font</ID>
+								<Unit />
+								<Value>Arial</Value>
+							</Parameter>
+							<Parameter>
+								<Name>字体大小</Name>
+								<ID>SigOpt_Size</ID>
+								<Unit />
+								<Value>8</Value>
+							</Parameter>
+							<Parameter>
+								<Name>范围</Name>
+								<ID>SigOpt_Full_Range</ID>
+								<Unit />
+								<Value>完整</Value>
+							</Parameter>
+							<Parameter>
+								<Name>多色谱图谱</Name>
+								<ID>SigOpt_Multi</ID>
+								<Unit />
+								<Value>分别,各自满量程</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>校正</Name>
+							<ID>Calibration_Section</ID>
+							<Section>
+								<Name>校正报告选项</Name>
+								<ID>ID_Calibration_Report_Options</ID>
+								<Parameter>
+									<Name>序列中重新校正打印输出</Name>
+									<ID>ID_Table_1_Calib_ReportOption</ID>
+									<Unit />
+									<Value />
+								</Parameter>
+								<Parameter>
+									<Name>重新校正前的校正表</Name>
+									<ID>Opt_Pre_Cal_Data</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+								<Parameter>
+									<Name>重新校正前的归一化报告</Name>
+									<ID>Opt_Pre_Cal_Rpt</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+								<Parameter>
+									<Name>重新校正前的校正报告</Name>
+									<ID>Opt_Cal_Rpt</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+								<Parameter>
+									<Name>重新校正后的校正表</Name>
+									<ID>Opt_Post_Cal_Data</ID>
+									<Unit />
+									<Value>是</Value>
+								</Parameter>
+								<Parameter>
+									<Name>重新校正后的归一化报告</Name>
+									<ID>Opt_Post_Cal_Rpt</ID>
+									<Unit />
+									<Value>是</Value>
+								</Parameter>
+								<Parameter>
+									<Name>如果区间循环校正序列已经完成</Name>
+									<ID>ID_Table_2_Calib_ReportOptions</ID>
+									<Unit />
+									<Value />
+								</Parameter>
+								<Parameter>
+									<Name>第一个周期的结果(结束上一个区间循环校正)</Name>
+									<ID>Opt_Start_Bracket</ID>
+									<Unit />
+									<Value>是</Value>
+								</Parameter>
+								<Parameter>
+									<Name>第二个周期的结果(开始下一个区间循环校正)</Name>
+									<ID>Opt_End_Bracket</ID>
+									<Unit />
+									<Value>否</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>峰加和表</Name>
+								<ID>ID_Peak_Sum_Section</ID>
+								<Table>
+									<Name>峰加和表</Name>
+									<ID>ID_Peak_Sum_Table</ID>
+								</Table>
+							</Section>
+							<Parameter>
+								<Name>校正表标题</Name>
+								<ID>Calib_Table_Title</ID>
+								<Unit />
+								<Value />
+							</Parameter>
+							<Parameter>
+								<Name>校正数据修改时间</Name>
+								<ID>Cal_Mod_DateTime</ID>
+								<Unit />
+								<Value />
+							</Parameter>
+							<Parameter>
+								<Name>相对参比窗口</Name>
+								<ID>Rel_Ref_Win</ID>
+								<Unit>%</Unit>
+								<Value>5.000</Value>
+							</Parameter>
+							<Parameter>
+								<Name>绝对参比窗口</Name>
+								<ID>Abs_Ref_Win</ID>
+								<Unit>min</Unit>
+								<Value>0.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>相对非参比窗口</Name>
+								<ID>Abs_Non_Ref_Win</ID>
+								<Unit>min</Unit>
+								<Value>5.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>绝对非参比窗口</Name>
+								<ID>Abs_Non_Ref_Win</ID>
+								<Unit>min</Unit>
+								<Value>0.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>未校正峰</Name>
+								<ID>Unk_Comp_No</ID>
+								<Unit />
+								<Value>未被报告</Value>
+							</Parameter>
+							<Parameter>
+								<Name>部分校正</Name>
+								<ID>Partial_Calib</ID>
+								<Unit />
+								<Value>是的, 标识的峰已重新校正</Value>
+							</Parameter>
+							<Parameter>
+								<Name>修正所有保留时间</Name>
+								<ID>Correct_All_RTMT</ID>
+								<Unit />
+								<Value>不,只有标识的峰</Value>
+							</Parameter>
+							<Parameter>
+								<Name>曲线类型</Name>
+								<ID>Curv_Type_Title</ID>
+								<Unit />
+								<Value>线性</Value>
+							</Parameter>
+							<Parameter>
+								<Name>原点</Name>
+								<ID>Curv_Origin_Title</ID>
+								<Unit />
+								<Value>含原点</Value>
+							</Parameter>
+							<Parameter>
+								<Name>权重</Name>
+								<ID>Curv_Weight_Title</ID>
+								<Unit />
+								<Value>均等</Value>
+							</Parameter>
+							<Parameter>
+								<Name>平均响应值</Name>
+								<ID>Avg_RF_Title</ID>
+								<Unit />
+								<Value>平均所有校正值</Value>
+							</Parameter>
+							<Parameter>
+								<Name>平均保留时间</Name>
+								<ID>Avg_RTMT_Title</ID>
+								<Unit />
+								<Value>加权平均新校正值 75 %</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>纯度选项</Name>
+							<ID>Purity_Options_Section</ID>
+							<Section>
+								<Name>波长范围</Name>
+								<ID>ID_Wavelength_Range</ID>
+								<Parameter>
+									<Name>范围</Name>
+									<ID>ID_Wavelength_Range_Full</ID>
+									<Unit />
+									<Value>整个范围</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>光谱图归一化</Name>
+								<ID>ID_Spectrum_Normalization</ID>
+								<Parameter>
+									<Name>归一化</Name>
+									<ID>ID_Normalize</ID>
+									<Unit />
+									<Value>各自满量程</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>包含“峰控制”光谱的数据文件的纯度选项</Name>
+								<ID>ID_Options_DataFile</ID>
+								<Parameter>
+									<Name>自动</Name>
+									<ID>Automatic</ID>
+									<Unit />
+									<Value>5</Value>
+								</Parameter>
+								<Parameter>
+									<Name>阈值</Name>
+									<ID>Threshold</ID>
+									<Unit>mAU</Unit>
+									<Value>1.000</Value>
+								</Parameter>
+								<Parameter>
+									<Name>纯度阈值</Name>
+									<ID>PurityThreshold</ID>
+									<Unit />
+									<Value>990.000</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>包含“全部”或“全部在峰中”光谱的数据文件的纯度选项</Name>
+								<ID>ID_Options_DataFileForAllSpectra</ID>
+								<Parameter>
+									<Name>自动</Name>
+									<ID>Automatic</ID>
+									<Unit />
+									<Value>5</Value>
+								</Parameter>
+								<Parameter>
+									<Name>阈值</Name>
+									<ID>Threshold</ID>
+									<Unit>mAU</Unit>
+									<Value>1.000</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>纯度计算技术</Name>
+								<ID>PurityCalculationTechnique</ID>
+								<Section>
+									<Name>阈值曲线</Name>
+									<ID>thresholdCurveSection</ID>
+									<Parameter>
+										<Name>计算的噪声标准偏差在</Name>
+										<ID>CalculatedStandardSeviationOfNoiseAt</ID>
+										<Unit />
+										<Value>0.000 min 和 14 光谱</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>相似曲线显示为</Name>
+									<ID>SimilarityCurveDisplayedAs</ID>
+									<Unit />
+									<Value>纯度比例</Value>
+								</Parameter>
+								<Parameter>
+									<Name>计算的纯度因子包含</Name>
+									<ID>PurityFactorCalculatedWith</ID>
+									<Unit />
+									<Value>平均光谱</Value>
+								</Parameter>
+							</Section>
+							<Parameter>
+								<Name>参比光谱</Name>
+								<ID>ID_ReferenceSpectra</ID>
+								<Unit />
+								<Value>自动</Value>
+							</Parameter>
+							<Parameter>
+								<Name>“峰控制”光谱</Name>
+								<ID>ID_Peak_Controlled_Spectra</ID>
+								<Unit />
+								<Value>最近的基线</Value>
+							</Parameter>
+							<Parameter>
+								<Name>“全部”光谱</Name>
+								<ID>ID_All_Spectra</ID>
+								<Unit />
+								<Value>峰基线</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>谱库光谱选项</Name>
+							<ID>Library_Spec_Pref_Section</ID>
+							<Section>
+								<Name>波长范围</Name>
+								<ID>ID_Wavelength_Range</ID>
+								<Parameter>
+									<Name>范围</Name>
+									<ID>ID_Wavelength_Range_Full</ID>
+									<Unit />
+									<Value>整个范围</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>光谱图归一化</Name>
+								<ID>ID_Spectrum_Normalization</ID>
+								<Parameter>
+									<Name>归一化</Name>
+									<ID>ID_Normalize</ID>
+									<Unit />
+									<Value>各自满量程</Value>
+								</Parameter>
+							</Section>
+							<Parameter>
+								<Name>参比光谱</Name>
+								<ID>ID_ReferenceSpectra</ID>
+								<Unit />
+								<Value>自动</Value>
+							</Parameter>
+							<Parameter>
+								<Name>“峰控制”光谱</Name>
+								<ID>ID_Peak_Controlled_Spectra</ID>
+								<Unit />
+								<Value>最近的基线</Value>
+							</Parameter>
+							<Parameter>
+								<Name>“全部”光谱</Name>
+								<ID>ID_All_Spectra</ID>
+								<Unit />
+								<Value>峰基线</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>噪声确定范围</Name>
+							<ID>Noise_Parameter_Section</ID>
+							<Table>
+								<Name>噪声测定的时间范围</Name>
+								<ID>ID_Noise_Table</ID>
+							</Table>
+						</Section>
+						<Section>
+							<Name>性能极限值</Name>
+							<ID>Performance_Limit_Section</ID>
+						</Section>
+						<Section>
+							<Name>MS DA 方法 </Name>
+							<ID>MSDAMethod_Section</ID>
+							<Parameter>
+								<Name>LCMS 运行参数</Name>
+								<ID>MSDaFormattedMSDALCMSAutoTitle</ID>
+								<Unit />
+								<Value />
+							</Parameter>
+							<Parameter>
+								<Name>背景扣除</Name>
+								<ID>MSDaIDHPLCMSMCXBACKGROUNDSUB65</ID>
+								<Unit />
+								<Value />
+							</Parameter>
+							<Parameter>
+								<Name>否</Name>
+								<ID>ID_LCMS_NO</ID>
+								<Unit />
+								<Value />
+							</Parameter>
+							<Parameter>
+								<Name>光谱</Name>
+								<ID>MSDAFormattedMSDALCMSAutoSpect</ID>
+								<Unit />
+								<Value>半峰高处的平均峰</Value>
+							</Parameter>
+							<Parameter>
+								<Name>可报告的离子丰度</Name>
+								<ID>MSDAFormattedMSDALCMSAutoIonAbun</ID>
+								<Unit>%</Unit>
+								<Value>10</Value>
+							</Parameter>
+							<Parameter>
+								<Name>噪声截止</Name>
+								<ID>MSDAFormattedMSDALCMSAutoNoiseCu</ID>
+								<Unit />
+								<Value>1000 计数</Value>
+							</Parameter>
+							<Parameter>
+								<Name>运行解卷积</Name>
+								<ID>MSDAFormattedMSDALCMSAutoDeconv</ID>
+								<Unit />
+								<Value>否</Value>
+							</Parameter>
+							<Parameter>
+								<Name>运行肽解析工具</Name>
+								<ID>ID_LCMSAutoPepTool</ID>
+								<Unit />
+								<Value>否</Value>
+							</Parameter>
+							<Parameter>
+								<Name>将 MS 色谱图与 LC 一起使用</Name>
+								<ID>ID_LCMSAutoUseLC</ID>
+								<Unit />
+								<Value>否</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>库检索</Name>
+							<ID>library_Search_Section</ID>
+							<Parameter>
+								<Name>检索时间从</Name>
+								<ID>ID_Search_Time_From</ID>
+								<Unit>min</Unit>
+								<Value>0.000 to 999.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>检索模式</Name>
+								<ID>ID_Do_Auto_Lib_Search</ID>
+								<Unit />
+								<Value>进行自动谱库检索</Value>
+							</Parameter>
+							<Parameter>
+								<Name>检索阈值</Name>
+								<ID>ID_Search_Threshold</ID>
+								<Unit />
+								<Value>950.0000</Value>
+							</Parameter>
+							<Parameter>
+								<Name>检查峰纯度</Name>
+								<ID>ID_Check_Purity</ID>
+								<Unit />
+								<Value>是</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>自定义字段</Name>
+							<ID>Custom_Fields</ID>
+							<Section>
+								<Name>与样品相关的自定义字段</Name>
+								<ID>ID_CustomField_Sample</ID>
+								<Table>
+									<Name>与样品相关的自定义字段</Name>
+									<ID>Custom_Fields_Definition_Table</ID>
+								</Table>
+							</Section>
+							<Section>
+								<Name>与化合物相关的自定义字段</Name>
+								<ID>ID_CustomField_Compound</ID>
+								<Table>
+									<Name>与化合物相关的自定义字段</Name>
+									<ID>Custom_Fields_Definition_Table</ID>
+								</Table>
+							</Section>
+						</Section>
+					</Section>
+				</MethodDescription>
+			</MethodConfiguration>
+		</Content>
+	</Doc>
+</ACAML>
